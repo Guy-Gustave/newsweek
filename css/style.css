@@ -41,6 +41,10 @@
     filter: invert(50%);
   }
   
+  .bg-orange {
+    background-color: orangered;
+    width: 100px;
+  }
   .subscribe button {
     border-radius: 6px;
     font-weight: bold;
