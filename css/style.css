@@ -122,3 +122,15 @@
     color: #000;
     font-weight: 700;
   }
+
+  .saturate { filter: invert(50%); }
+
+  .image-logo img {
+    width: 200px;
+    height: 60px;
+  }
+
+  .socials-icons a img {
+    width: 18px;
+    height: 18px;
+  }
