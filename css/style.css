@@ -18,6 +18,7 @@
       color: black;
       background-color: goldenrod;
   }
+
   .category {
   display: block;
   font: bold 17px/16px "Roboto Condensed",sans-serif;
@@ -103,7 +104,7 @@
     font-weight: 800;
   }
   
-  
+
   .catg {
     background-color: #f1f1f2;
     height: fit-content;
@@ -123,7 +124,7 @@
     font-weight: 700;
   }
 
-  .saturate { filter: invert(50%); }
+  .saturate { filter: invert(50%);}
 
   .image-logo img {
     width: 200px;
@@ -134,3 +135,4 @@
     width: 18px;
     height: 18px;
   }
+
