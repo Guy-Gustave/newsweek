@@ -12,6 +12,7 @@
     border-right: 2px solid #ddd;
     font-weight: 700;
     padding: 0 5px ;
+    height: 40px;
   }
 
   .user {
@@ -37,6 +38,10 @@
     z-index: 1;
   }
   
+  .maga {
+    font-size: 24px;
+  }
+
   .news-body h4 {
     color: black;
   }
@@ -51,6 +56,12 @@
     background-color: orangered;
     width: 100px;
   }
+
+.logo h2 {
+  font-size: 48px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
   .subscribe button {
     border-radius: 6px;
     font-weight: bold;
@@ -109,7 +120,6 @@
     font-weight: 800;
   }
   
-
   .catg {
     background-color: #f1f1f2;
     height: fit-content;
@@ -121,7 +131,12 @@
   }
 
   .w-90 {
-      width: 90%;
+    width: 90%;
+  }
+
+  .us-section-2 {
+    width: auto;
+    height: 100%;
   }
 
   .text-dark {

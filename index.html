@@ -17,41 +17,30 @@
 </head>
 <body>
   <header>
-    <div class=" nav1 container-lg d-flex justify-content-between w-100  mx-1 overflow-hidden" >
-      <nav class="d-flex flex-column navbar px-0 mx-0 w-100">
-        <div class="meteo-date d-lg-flex flex-lg-column text-white d-md-none d-sm-none">
-          <div class="meteo d-flex flex-row">
-            <div class="cloud">
-              <i class="fas fa-cloud"></i>
-            </div>
-            <div class="temperature">
-              <h6> 28°Bujumbura, BI </h6>
-            </div>
-          </div>
-          <div class="left-margin-10">
-            <div class="time"> Fri, Jun 19, 2020</div>
-          </div>
+    <nav class=" nav1 container-fluid d-flex justify-content-between align-content-center w-100 mx-1 overflow-hidden" >  
+      <div class="meteo-date d-lg-flex flex-lg-column text-white d-md-none d-sm-none m-3">         
+        <h6> 28°Bujumbura, BI </h6>
+        <h6 class="time"> Fri, Jun 19, 2020</h6>
+      </div>
+      <div class="logo col-4 col-lg-4 pt-2">
+        <h2><a class="text-white " href="#"> Newsweek</a></h2>
+      </div>
+      <div class="right-hand d-flex flex-row align-items-center px-2 ml-lg-6">
+        <div class="login">
+          <a class="d-md-none d-lg-none" href="#"><img src="images/user.png" class="user" alt="user"> </a>
+          <button class="border-0 font-weight-bold color-white d-sm-flex- d-none d-md-flex mt-lg-3">login</button>
         </div>
-        <div class="logo col-4 col-lg-4">
-         <h2><a class="text-white" href="#"> newsweek</a></h2>
+        <div class="subscribe ml-2 text-white mt-lg-3">
+          <button class="rounded border-0 ">SUBSCRIBE</button>
+          
         </div>
-        <div class="right-hand d-flex flex-row align-items-center px-2 ml-lg-6">
-          <div class="login">
-            <a class="d-md-none d-lg-none" href="#"><img src="images/user.png" class="user" alt="user"> </a>
-            <button class="border-0 font-weight-bold color-white d-sm-flex- d-none d-md-flex mt-lg-3">login</button>
-          </div>
-          <div class="subscribe ml-2 text-white mt-lg-3">
-            <button class="rounded border-0 ">SUBSCRIBE</button>
-            
-          </div>
-          <div class="menu-svg mr-3 d-lg-none">
-            <img src="images/menu.svg" alt="menu-icon">
-          </div>
+        <div class="menu-svg mr-3 d-lg-none">
+          <img src="images/menu.svg" alt="menu-icon">
         </div>
-      </nav>
-    </div>
-    <div class="container-fluid nav2 d-lg-flex flex-row w-100 d-md-none d-sm-none">
-      <ul class="d-flex flex-row justify-content-between align-items-center w-100 list-unstyled px-3">
+      </div>
+    </nav>
+    <nav class="container-fluid nav2 d-none d-lg-inline mx-auto">
+      <ul class="d-flex flex-row w-100 list-unstyled  justify-content-between Aligned flex item align-content-center mx-auto">
         <li>.u.s.</li>
         <li>world</li>
         <li>business</li>
@@ -65,19 +54,17 @@
         <li>Weather</li>
         <li><i class="fa fa-search" aria-hidden="true"></i> search</li>
       </ul>
-    </div>     
-   
+    </nav>     
   </header>
   <main class="container-fluid">
     <div class="row">
       <div class="col-sm-12 col-md-5 col-lg-4 pl-3">
         <section class="top-stories section1 d-md-none d-lg-none" >
-          <h2>Top story </h2>
-          <div class= "news pb-4">
+          <h3 class="text-secondary mt-3">Top story </h3>
+          <div class= "news py-2">
             <img src="https://d.newsweek.com/en/full/1601434/covid19-coronavirus-xinfadi-beijing-getty.jpg?w=591&amp;h=364&amp;f=219350daaf287d0569e98261483306cf" alt="covid19">
-            <a class="category text-danger " href="#">Health</a>
           </div>
-          <div class="news-body p-0 pt-0">
+          <div class="news-body p-0 ">
             <h4 class="news-title"> <a class="text-dark small" href="#"> Beijing Market Tied to New COVID-19 Outbreak Has High Virus Concentrations</a></h4>
             <p class="news-text small">In the past week, the Chinese capital has reported its first new domestic COVID-19 cases in almost two months.</p>
           </div>
@@ -907,8 +894,8 @@
     <div class="magazine-top grid col-12">
       <section class="top-news sections">
         <div class="top-title d-flex flex-row justify-content-center">
-          <h5 class="text-white bg-danger">N</h5>
-          <h5 class="title ml-3">IN THE MAGAZINE</h5>
+          <h3 class="text-white bg-danger px-2 maga">N</h3>
+          <h3 class="title mx-3 maga">IN THE MAGAZINE</h3>
         </div>
         <div class="artics mt-4 m-2 row">
           <div class="griz col-sm-12 col-md-3 col-lg-3">
@@ -1011,8 +998,8 @@
 
       <section class="edt-pics top-news ">
         <div class="top-title mt-4 d-flex flex-row justify-content-center">
-          <h4 class="text-white bg-danger">N</h4>
-          <h5 class="title ml-3"> EDITOR'S PICK</h5>
+          <h4 class="text-white bg-danger maga">N</h4>
+          <h5 class="title ml-3 maga"> EDITOR'S PICK</h5>
         </div>
         <div class="artics mt-3 mx-2 row">
           <article class="griz col-sm-12 col-md-6 col-lg-3">
@@ -1482,24 +1469,31 @@
         <h5 ><a href="#" class="text-danger">BUSINESS</a></h5>
       </div>
       <div class="row">
-        <div class="card col-sm-12 w-100 col-md-7 col-lg-7 mr-4">
+        <div class="card col-sm-12 w-100 col-md-6 col-lg-6 mr-4">
           <div class=" d-flex flex-row">
             <div class="card-img w-75">
               <img src="https://d.newsweek.com/en/full/1597761/cover-june-19-26-2020.jpg?w=170&q=95&f=5fb0215ca8fd65a8cfe24229880661d4" class="card-img-top w-50 m-4 d-block" alt="img-card">
             </div>
             <div class="subscrib text-center m-4">
-              <h5>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h5>
-              <p class="small">All Access + Weekly Delivery. Choose A Membership That's Perfect for You!</p>
+              <h5 class="py-3">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h5>
+              <p class="small py-3">All Access + Weekly Delivery. Choose A Membership That's Perfect for You!</p>
               <button class="rounded border-1 bg-orange">SUBSCRIBE</button>
             </div>
           </div>
         </div>
-        <div class="card col-sm-12 w-75 col-md-4 col-lg-4 ml-4">
-          <h4 class="text-center">The Starting 5</h4>
-          <p class="text-center">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
-          <div class="submits my-3">
-            <input type="text" class="form-control my-2" id="text">
-            <button type="button" class="btn btn-warning btn-lg btn-block">Button 2</button>
+        <div class="card col-sm-12 w-90 col-md-5 col-lg-5 ml-3">
+          <div class="d-flex flex-row">
+            <div class="imge-section col-md-3 col-12 m-2">
+              <img src="https://d.newsweek.com/en/full/1564924/february-14-2020-cover.jpg?w=170&amp;q=95&amp;f=c1d5601167747525a4d15e56749350ec" alt="next-to-footer">
+            </div>
+            <div class="mx-2">
+              <h4 class="text-center">The Starting 5</h4>
+              <p class="text-center">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+              <div class="submits w-75 mx-auto">
+                <input type="text" class="form-control my-2" id="text">
+                <button type="button" class="btn btn-warning btn-lg btn-block">Button 2</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
