@@ -13,6 +13,11 @@
     font-weight: 700;
     padding: 0 5px ;
   }
+
+  .user {
+    width: 20px;
+    height: 25px;
+  }
   
   .btn-subs {
     color: black;
