@@ -2,10 +2,10 @@
 In this project, I’ll get a chance to try out Twitter’s Bootstrap framework by building a site that actually uses it :  Newsweek.
 
 <!-- PROJECT LOGO -->
-## This is a clone application of New Next-web.
-- [Screenshot Image](images/scren1)
-- [Screenshot Image](images/scren2)
-- [Screenshot Image](images/screen3)
+## This is a clone application of News week.
+- <img src="images/scren1.png" width="300"> 
+- <img src="images/scren2.png" width="300"> 
+- <img src="images/screen3.png" width="300"> 
 <br />
 <p align="center">
    <h3 align="center">News Week Page</h3>
