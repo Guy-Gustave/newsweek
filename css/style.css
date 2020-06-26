@@ -8,10 +8,8 @@
   }
   
   .nav2 li {
-    font-size: 1.1em;
-    border-right: 2px solid #ddd;
+    font-size: 1.2em;
     font-weight: 700;
-    padding: 0 5px ;
     height: 40px;
   }
 
@@ -25,6 +23,11 @@
     background-color: goldenrod;
   }
 
+  .catg-f a {
+    bottom: 0;
+    color: red;
+  }
+
   .category {
     display: block;
     font: bold 17px/16px "Roboto Condensed",sans-serif;
@@ -33,7 +36,7 @@
     padding: 8px 15px 9px;
     background-color: #ffffffe6;
     position: absolute;
-    bottom: 9rem;
+    bottom: 5rem;
     left: 0;
     z-index: 1;
   }
@@ -120,12 +123,7 @@
     font-weight: 800;
   }
   
-  .catg {
-    background-color: #f1f1f2;
-    height: fit-content;
-    min-width: 15%;
-    min-height: 10%;
-    z-index: 1;
+  .link-footer {
     bottom: 0;
     left: 0;
   }
