@@ -1,6 +1,11 @@
+* {
+  border: none;
+  line-height: 1.5em;
+}
+
 .nav1 {
     background-color: orangered;
-    height: 70px;
+    height: 80px;
   }
   
   .nav2 {
@@ -13,6 +18,11 @@
     height: 40px;
   }
 
+  .nav2 input {
+    width: 80px;
+    padding-right: 5px;
+  }
+
   .user {
     width: 20px;
     height: 25px;
@@ -23,23 +33,7 @@
     background-color: goldenrod;
   }
 
-  .catg-f a {
-    bottom: 0;
-    color: red;
-  }
 
-  .category {
-    display: block;
-    font: bold 17px/16px "Roboto Condensed",sans-serif;
-    color: #f72210;
-    text-transform: uppercase;
-    padding: 8px 15px 9px;
-    background-color: #ffffffe6;
-    position: absolute;
-    bottom: 5rem;
-    left: 0;
-    z-index: 1;
-  }
   
   .maga {
     font-size: 24px;
@@ -60,9 +54,10 @@
     width: 100px;
   }
 
-.logo h2 {
-  font-size: 48px;
+.logo h2 a {
+  font-size: 64px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
 }
 
   .subscribe button {
@@ -104,6 +99,10 @@
     height: 1px;
     left: 0;
     right: 0;
+  }
+
+  .st-img {
+    height: 90%;
   }
 
   .news{
@@ -162,3 +161,6 @@
     width: 30%;
   }
 
+footer li a{
+  font-size: 20px;
+}
