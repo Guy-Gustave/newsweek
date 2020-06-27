@@ -1,6 +1,15 @@
 * {
   border: none;
   line-height: 1.5em;
+  overflow-x: hidden;
+  
+}
+header {
+  width: 99%;
+  overflow: hidden;
+}
+main {
+  width: 99%;
 }
 
 .nav1 {
