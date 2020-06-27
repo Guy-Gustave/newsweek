@@ -88,20 +88,10 @@ footer li a {
   background-color: #ffe53b;
 }
 
-.subscribe button::after,
-.email-btn::after,
-.depth-sub::after,
-.f-m-t::after {
-  content: url("https://g.newsweek.com/img/weather/ic-white-arrow.png");
-  margin-left: 10px;
-  filter: invert(100%);
-  background-size: 20%;
-}
-
 .vs {
   width: 32px;
   height: 32px;
-  z-index: 3;
+  z-index: 2;
 }
 
 .vs::before {
@@ -133,10 +123,6 @@ footer li a {
 
 .news img {
   width: 96%;
-}
-
-.f-img img {
-  width: 100%;
 }
 
 .category h6 {
