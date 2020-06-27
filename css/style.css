@@ -91,7 +91,6 @@ footer li a {
 .vs {
   width: 32px;
   height: 32px;
-  z-index: 2;
 }
 
 .vs::before {
