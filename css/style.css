@@ -3,10 +3,12 @@
   line-height: 1.5em;
   overflow-x: hidden;  
 }
+
 header {
   width: 99%;
   overflow: hidden;
 }
+
 main {
   width: 99%;
 }
@@ -50,8 +52,6 @@ main {
   color: black;
   background-color: goldenrod;
 }
-
-
 
 .maga {
   font-size: 24px;
@@ -132,12 +132,11 @@ footer li a{
 }
 
 .news img {
-    width: 96%;
+  width: 96%;
 }
 
 .f-img img {
   width: 100%;
-  
 }
 
 .category h6 {
