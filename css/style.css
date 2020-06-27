@@ -88,12 +88,12 @@ footer li a {
   background-color: #ffe53b;
 }
 
-.vs::before {
-  top: calc(50% - 2px);
-}
-
 .vs::after {
   top: 50%;
+}
+
+.vs::before {
+  top: calc(50% - 2px);
 }
 
 .vs::before,
