@@ -5,7 +5,7 @@
 
 .nav1 {
     background-color: orangered;
-    height: 80px;
+    height: 90px;
   }
   
   .nav2 {
@@ -21,6 +21,16 @@
   .nav2 input {
     width: 80px;
     padding-right: 5px;
+  }
+
+  .logo img {
+    width: 320px;
+    filter: invert(100%);
+    padding-top: 10px;
+  }
+
+  .log {
+    font-size: 24px;
   }
 
   .user {
@@ -148,9 +158,16 @@
     height: 60px;
   }
 
+  .lastf {
+    right: 0;
+    bottom: 0;
+  }
+
   .socials-icons a img {
-    width: 18px;
-    height: 18px;
+    width: 23px;
+    height: 23px;
+    margin: 0 5px;
+    filter: invert(30%);
   }
 
   .lb button {
