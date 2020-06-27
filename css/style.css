@@ -79,114 +79,115 @@ main {
   font-weight: bolder;
 }
 
-  .subscribe button {
-    border-radius: 6px;
-    font-weight: bold;
-    background-color: #ffe53b;
-  }
+.subscribe button {
+  border-radius: 6px;
+  font-weight: bold;
+  background-color: #ffe53b;
+}
+
+.subscribe button::after,
+.email-btn::after,
+.f-m-t::after,
+.depth-sub::after {
+  content: url("https://g.newsweek.com/img/weather/ic-white-arrow.png");
+  margin-left: 10px;
+  filter: invert(100%);
+  background-size: 20%;
+}
+
+.vs {
+  width: 32px;
+  height: 32px;
+  z-index: 3;
+}
+
+.vs::before {
+  top: calc(50% - 2px);
+}
+
+.vs::after {
+  top: 50%;
+}
+
+.vs::before,
+.vs::after {
+  position: absolute;
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  left: 0;
+  right: 0;
+}
+
+.st-img {
+  height: 90%;
+}
+
+.news{
+  margin-top: 20px;
+}
+.news img {
+    width: 96%;
+}
+
+.f-img img {
+  width: 100%;
   
-  .subscribe button::after,
-  .email-btn::after,
-  .f-m-t::after,
-  .depth-sub::after {
-    content: url("https://g.newsweek.com/img/weather/ic-white-arrow.png");
-    margin-left: 10px;
-    filter: invert(100%);
-    background-size: 20%;
-  }
-  
-  .vs {
-    width: 32px;
-    height: 32px;
-    z-index: 3;
-  }
-  
-  .vs::before {
-    top: calc(50% - 2px);
-  }
-  
-  .vs::after {
-    top: 50%;
-  }
-  
-  .vs::before,
-  .vs::after {
-    position: absolute;
-    content: "";
-    display: block;
-    background-color: #d9d9d9;
-    height: 1px;
-    left: 0;
-    right: 0;
-  }
+} 
+.category h6 {
+  text-align: center;
+  padding-top: 7px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
 
-  .st-img {
-    height: 90%;
-  }
+.link-footer {
+  bottom: 0;
+  left: 0;
+}
 
-  .news{
-    margin-top: 20px;
-  }
-  .news img {
-      width: 96%;
-  }
-  
-  .f-img img {
-    width: 100%;
-  } 
-  .category h6 {
-    text-align: center;
-    padding-top: 7px;
-    text-transform: uppercase;
-    font-weight: 800;
-  }
-  
-  .link-footer {
-    bottom: 0;
-    left: 0;
-  }
+.w-90 {
+  width: 90%;
+}
 
-  .w-90 {
-    width: 90%;
-  }
+.us-section-2 {
+  width: auto;
+  height: 100%;
+}
 
-  .us-section-2 {
-    width: auto;
-    height: 100%;
-  }
+.text-dark {
+  color: #000;
+  font-weight: 700;
+}
 
-  .text-dark {
-    color: #000;
-    font-weight: 700;
-  }
+.saturate { filter: invert(50%);}
 
-  .saturate { filter: invert(50%);}
+.image-logo img {
+  width: 200px;
+  height: 60px;
+}
 
-  .image-logo img {
-    width: 200px;
-    height: 60px;
-  }
+.lastf {
+  right: 0;
+  bottom: 0;
+}
 
-  .lastf {
-    right: 0;
-    bottom: 0;
-  }
+.socials-icons a img {
+  width: 23px;
+  height: 23px;
+  margin: 0 5px;
+  filter: invert(30%);
+}
 
-  .socials-icons a img {
-    width: 23px;
-    height: 23px;
-    margin: 0 5px;
-    filter: invert(30%);
-  }
+.lb button {
+  width: 150px;
+}
 
-  .lb button {
-    width: 150px;
-  }
-
-  .w-30 {
-    width: 30%;
-  }
+.w-30 {
+  width: 30%;
+}
 
 footer li a{
-  font-size: 20px;
+  font-size: 16px;
 }
