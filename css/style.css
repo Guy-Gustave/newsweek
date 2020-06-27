@@ -1,16 +1,17 @@
 * {
   border: none;
   line-height: 1.5em;
-  overflow-x: hidden;
+  
 }
 
 header {
-  width: 99%;
-  overflow: hidden;
+  width: 98%;
+  box-sizing: border-box;
 }
 
 main {
   width: 99%;
+  box-sizing: border-box;
 }
 
 .nav1 {
@@ -46,6 +47,10 @@ main {
 .user {
   width: 20px;
   height: 25px;
+}
+
+.card {
+  border: none;
 }
 
 .btn-subs {
@@ -162,6 +167,10 @@ footer li a {
 .lastf {
   right: 0;
   bottom: 0;
+}
+
+footer {
+  width: 98%;
 }
 
 .socials-icons a img {
