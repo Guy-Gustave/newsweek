@@ -70,9 +70,9 @@ main {
 .bg-orange {
   background-color: orangered;
   width: 100px;
-  }
+}
 
-footer li a{
+footer li a {
   font-size: 16px;
 }
 
@@ -90,8 +90,8 @@ footer li a{
 
 .subscribe button::after,
 .email-btn::after,
-.f-m-t::after,
-.depth-sub::after {
+.depth-sub::after,
+.f-m-t::after {
   content: url("https://g.newsweek.com/img/weather/ic-white-arrow.png");
   margin-left: 10px;
   filter: invert(100%);
@@ -127,7 +127,7 @@ footer li a{
   height: 90%;
 }
 
-.news{
+.news {
   margin-top: 20px;
 }
 
