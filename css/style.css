@@ -1,8 +1,7 @@
 * {
   border: none;
   line-height: 1.5em;
-  overflow-x: hidden;
-  
+  overflow-x: hidden;  
 }
 header {
   width: 99%;
@@ -13,65 +12,69 @@ main {
 }
 
 .nav1 {
-    background-color: orangered;
-    height: 90px;
-  }
-  
-  .nav2 {
-    height: 40px;
-  }
-  
-  .nav2 li {
-    font-size: 1.2em;
-    font-weight: 700;
-    height: 40px;
+  background-color: orangered;
+  height: 90px;
+}
+
+.nav2 {
+  height: 40px;
+}
+
+.nav2 li {
+  font-size: 1.2em;
+  font-weight: 700;
+  height: 40px;
+}
+
+.nav2 input {
+  width: 80px;
+  padding-right: 5px;
+}
+
+.logo img {
+  width: 320px;
+  filter: invert(100%);
+  padding-top: 10px;
+}
+
+.log {
+  font-size: 24px;
+}
+
+.user {
+  width: 20px;
+  height: 25px;
+}
+
+.btn-subs {
+  color: black;
+  background-color: goldenrod;
+}
+
+
+
+.maga {
+  font-size: 24px;
+}
+
+.news-body h4 {
+  color: black;
+}
+
+.menu-svg img {
+  width: 40px;
+  margin-left: 5px;
+  filter: invert(50%);
+}
+
+.bg-orange {
+  background-color: orangered;
+  width: 100px;
   }
 
-  .nav2 input {
-    width: 80px;
-    padding-right: 5px;
-  }
-
-  .logo img {
-    width: 320px;
-    filter: invert(100%);
-    padding-top: 10px;
-  }
-
-  .log {
-    font-size: 24px;
-  }
-
-  .user {
-    width: 20px;
-    height: 25px;
-  }
-  
-  .btn-subs {
-    color: black;
-    background-color: goldenrod;
-  }
-
-
-  
-  .maga {
-    font-size: 24px;
-  }
-
-  .news-body h4 {
-    color: black;
-  }
-  
-  .menu-svg img {
-    width: 40px;
-    margin-left: 5px;
-    filter: invert(50%);
-  }
-  
-  .bg-orange {
-    background-color: orangered;
-    width: 100px;
-  }
+footer li a{
+  font-size: 16px;
+}
 
 .logo h2 a {
   font-size: 64px;
@@ -127,6 +130,7 @@ main {
 .news{
   margin-top: 20px;
 }
+
 .news img {
     width: 96%;
 }
@@ -134,7 +138,8 @@ main {
 .f-img img {
   width: 100%;
   
-} 
+}
+
 .category h6 {
   text-align: center;
   padding-top: 7px;
@@ -161,7 +166,9 @@ main {
   font-weight: 700;
 }
 
-.saturate { filter: invert(50%);}
+.saturate {
+  filter: invert(50%);
+}
 
 .image-logo img {
   width: 200px;
@@ -188,6 +195,3 @@ main {
   width: 30%;
 }
 
-footer li a{
-  font-size: 16px;
-}
