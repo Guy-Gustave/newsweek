@@ -92,6 +92,10 @@ footer li a {
   top: calc(50% - 2px);
 }
 
+.vs::after {
+  top: 50%;
+}
+
 .vs::before,
 .vs::after {
   position: absolute;
