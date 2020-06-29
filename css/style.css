@@ -72,6 +72,12 @@ main {
   filter: invert(50%);
 }
 
+.nav2 li a img {
+  width: 18px;
+  height: 18px;
+  padding-top: 3px;
+}
+
 .bg-orange {
   background-color: orangered;
   width: 100px;
