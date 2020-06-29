@@ -1,0 +1,210 @@
+* {
+  border: none;
+  line-height: 1.3em;
+  box-sizing: border-box;
+}
+
+header {
+  width: 98%;
+  box-sizing: border-box;
+}
+
+main {
+  width: 99%;
+  box-sizing: border-box;
+}
+
+.nav1 {
+  background-color: orangered;
+  height: 70px;
+}
+
+.nav2 {
+  height: 40px;
+}
+
+.nav2 li {
+  font-size: 1.2em;
+  font-weight: 700;
+  height: 40px;
+}
+
+.nav2 input {
+  width: 80px;
+  padding-right: 5px;
+}
+
+.logo img {
+  width: 220px;
+  filter: invert(100%);
+  padding-top: 15px;
+}
+
+.log {
+  font-size: 24px;
+}
+
+.user {
+  width: 20px;
+  height: 25px;
+}
+
+.card {
+  border: none;
+}
+
+.btn-subs {
+  color: black;
+  background-color: goldenrod;
+}
+
+.maga {
+  font-size: 24px;
+}
+
+.news-body h4 {
+  color: black;
+}
+
+.menu-svg img {
+  width: 40px;
+  margin-left: 5px;
+  filter: invert(50%);
+}
+
+.news {
+  margin-top: 20px;
+}
+
+.news img {
+  width: 96%;
+}
+
+.image-logo img {
+  width: 200px;
+  height: 60px;
+}
+
+.socials-icons a img {
+  width: 23px;
+  height: 23px;
+  margin: 0 5px;
+  filter: invert(30%);
+}
+
+.nav2 li a img {
+  width: 18px;
+  height: 18px;
+  padding-top: 3px;
+}
+
+.bg-orange {
+  background-color: orangered;
+  width: 100px;
+}
+
+.middle-top-story {
+  width: 95%;
+  overflow-x: hidden;
+}
+
+footer li a {
+  font-size: 16px;
+}
+
+.card-body a {
+  width: 90%;
+}
+
+.logo h2 a {
+  font-size: 64px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+}
+
+.subscribe button {
+  border-radius: 6px;
+  font-weight: bold;
+  background-color: #ffe53b;
+}
+
+.vs::before {
+  top: calc(50% - 2px);
+}
+
+.vs::after {
+  top: 50%;
+}
+
+.vs::before,
+.vs::after {
+  position: absolute;
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  left: 0;
+  right: 0;
+}
+
+.vs {
+  width: 32px;
+  height: 32px;
+}
+
+.st-img {
+  height: 90%;
+}
+
+.category h6 {
+  text-align: center;
+  padding-top: 7px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.link-footer {
+  bottom: 0;
+  left: 0;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.us-section-2 {
+  width: auto;
+  height: 100%;
+}
+
+.text-dark {
+  color: #000;
+  font-weight: 700;
+}
+
+.saturate {
+  filter: invert(50%);
+}
+
+.mobil {
+  flex-direction: column;
+}
+
+.lastf {
+  right: 0;
+  bottom: 0;
+}
+
+footer {
+  width: 93%;
+  margin-top: 10px;
+}
+
+.lb button {
+  width: 150px;
+}
+
+.w-30 {
+  width: 30%;
+}
+
