@@ -72,6 +72,10 @@ main {
   filter: invert(50%);
 }
 
+.news {
+  margin-top: 20px;
+}
+
 .news img {
   width: 96%;
 }
@@ -150,14 +154,6 @@ footer li a {
 
 .st-img {
   height: 90%;
-}
-
-.news {
-  margin-top: 20px;
-}
-
-.news img {
-  width: 96%;
 }
 
 .category h6 {
