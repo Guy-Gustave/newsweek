@@ -1,6 +1,7 @@
 * {
   border: none;
-  line-height: 1.5em;
+  line-height: 1.3em;
+  box-sizing: border-box;
 }
 
 header {
@@ -154,6 +155,10 @@ footer li a {
   height: 100%;
 }
 
+.card-body a {
+  width: 90%;
+}
+
 .text-dark {
   color: #000;
   font-weight: 700;
@@ -168,13 +173,18 @@ footer li a {
   height: 60px;
 }
 
+.mobil {
+  flex-direction: column;
+}
+
 .lastf {
   right: 0;
   bottom: 0;
 }
 
 footer {
-  width: 98%;
+  width: 93%;
+  margin-top: 10px;
 }
 
 .socials-icons a img {
