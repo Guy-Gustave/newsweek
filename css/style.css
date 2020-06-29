@@ -72,6 +72,22 @@ main {
   filter: invert(50%);
 }
 
+.news img {
+  width: 96%;
+}
+
+.image-logo img {
+  width: 200px;
+  height: 60px;
+}
+
+.socials-icons a img {
+  width: 23px;
+  height: 23px;
+  margin: 0 5px;
+  filter: invert(30%);
+}
+
 .nav2 li a img {
   width: 18px;
   height: 18px;
@@ -90,6 +106,10 @@ main {
 
 footer li a {
   font-size: 16px;
+}
+
+.card-body a {
+  width: 90%;
 }
 
 .logo h2 a {
@@ -161,10 +181,6 @@ footer li a {
   height: 100%;
 }
 
-.card-body a {
-  width: 90%;
-}
-
 .text-dark {
   color: #000;
   font-weight: 700;
@@ -172,11 +188,6 @@ footer li a {
 
 .saturate {
   filter: invert(50%);
-}
-
-.image-logo img {
-  width: 200px;
-  height: 60px;
 }
 
 .mobil {
@@ -191,13 +202,6 @@ footer li a {
 footer {
   width: 93%;
   margin-top: 10px;
-}
-
-.socials-icons a img {
-  width: 23px;
-  height: 23px;
-  margin: 0 5px;
-  filter: invert(30%);
 }
 
 .lb button {
